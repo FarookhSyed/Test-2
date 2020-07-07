@@ -1,5 +1,8 @@
 *** Variables ***
 ${Chrome}   gc
-${prod}    http://localhost:3000/
-#${prod}      http://flairtech-f6aa2.firebaseapp.com/
+#${prod}    http://localhost:3000/
+${prod}   https://spidertest.myjyotish.com/
 ${Browser}  ${Chrome}
+${firefox}  firefox
+${IE}  edge
+

@@ -1,44 +1,10 @@
 *** Variables ***
-${email}    //*[@id="email"]
-${pwd}      //*[@id="pass"]
-${submit}   //*[@id="root"]/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/form/div[3]/button
-${temp}     //*[@id="root"]/div/div[2]/div[1]/div/nav/div/ul/div[1]/a[6]/li
-${done}     //*[@id="onBoard"]/div[6]/button
-${ok}       /html/body/div[2]/div/div[3]/button[1]
-${emp}      //*[@id="root"]/div/div[2]/div[1]/div/nav/div/ul/div[1]/a[7]/li
-${active}   //*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div[2]/div[1]/a[2]
-${inactive}     //*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div[2]/div[1]/a[3]
-${suspended}    //*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div[2]/div[1]/a[4]
-${selected}     //*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div[2]/div[1]/a[5]
-${activation}   /html/body/div/div/div[2]/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/table/tbody[1]/tr/td[14]/div/input
-${more}        //*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div[1]/div[2]/div
-${task}     //*[@id="root"]/div/div[2]/div[1]/div/nav/div/ul/div[1]/a[1]/li
-${pdf}      //*[@id="root"]/div/div[2]/div[2]/div[2]/div/div[1]/div[2]/span[1]/button
-${excel}    //*[@id="root"]/div/div[2]/div[2]/div[2]/div/div[1]/div[2]/span[2]/button
-${newproj}  //*[@id="root"]/div/div[2]/div[2]/div[2]/div/div[1]/div[2]/span[3]/div/button
-${pname}    //html/body/div[2]/div/div/div/form/div[1]/div[1]/div/div/input
-${status}   /html/body/div[2]/div/div/div/form/div[1]/div[2]
-${status1}  /html/body/div[2]/div/div/div/form/div[1]/div[2]/select
-${date}    /html/body/div[2]/div/div/div/form/div[2]/div[1]/div/div
-${invite}    //*[@id="root"]/div/div[2]/div[1]/div/nav/div/ul/div[1]/a[5]/li
-${newtemplate1}       //*[@id="createbtn"]/button
-${inputnewtemplate}    /html/body/div[2]/div/div[2]/input[1]
-${submitok}    /html/body/div[2]/div/div[3]/button[1]
-${account}    //*[@id="root"]/div/div[2]/div[1]/div/nav/div/ul/div[2]/li/a
-${logout}    //*[@id="root"]/div/div[2]/div[1]/div/nav/div/ul/div[2]/li/div/a[3]/button
-${inputpassword}    //*[@id="levelOneAuthPass"]
-${passsubmition}    //*[@id="root"]/div/div[2]/div[2]/div/div/div/div/div/button
-${name}     //*[@id="PIb_fname"]
-${mname}    //*[@id="PIb_mname"]
-${lname}    //*[@id="PIb_lname"]
-${phonenumber}    //*[@id="PIb_phone"]
-${personalinfo}     //*[@id="onBoard"]/div[1]/button
-${mailing}          //*[@id="onBoard"]/div[2]/button
-${emcontact}        //*[@id="onBoard"]/div[3]/button
-${Employement}      //*[@id="onBoard"]/div[4]/button
-${work}             //*[@id="onBoard"]/div[5]/button
-${id}               //*[@id="dinesh342243@gmail.com"]
-${promote}          //*[@id="root"]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[3]/div/div[1]/span/button
-${suspend}          //*[@id="root"]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[3]/div/div[2]/span/button
-${print}            //*[@id="root"]/div/div[2]/div[2]/div[2]/div/div/div[1]/div[4]/div[1]/button
-${file}             //*[@id="profile"]/div[2]/label/input
+${Pop-Up}  //*[@id="auwnotificationpopup"]/div/div/div[3]/a[1]
+${User button}    //*[@id="userLogin"]
+${User Button Close}  //*[@id="login"]/a
+${Forgot password}    //*[@id="#forgotpassword"]
+${Submit}  //*[@id="forgot-password-form"]/input[2]
+${Input mail}  //*[@id="forgot-password-form"]/input[1]
+${Forgot password Tab Close}  //*[@id="forgotpassword"]/a
+${Phone Number Submit}  //*[@id="nkit_send_otp"]
+${Phone Number Tab Close}  //html/body/div[10]/div[1]/a
